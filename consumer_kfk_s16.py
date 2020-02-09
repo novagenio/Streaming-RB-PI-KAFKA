@@ -1,15 +1,9 @@
 # Importing the GPIO library to use the GPIO pins of Raspberry pi 
-
 import RPi.GPIO as GPIO 
-
 GPIO.setmode(GPIO.BCM)  # Using BCM numbering 
-
 host = "" 
-
 port = 1        # Raspberry Pi uses port 1 for Bluetooth Communication 
-
 ################################################### 
-
 import time 
 
 from adafruit_servokit import ServoKit 
